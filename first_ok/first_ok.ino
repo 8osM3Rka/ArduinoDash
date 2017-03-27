@@ -59,70 +59,70 @@ Serial.begin(9600);
  lc.clearDisplay(3);
  lc.setIntensity(3, 8);
  lc.shutdown(3, false);
-lc.setColumn(0,7,s[0]);
-lc.setColumn(0,6,s[1]);
-lc.setColumn(0,5,s[2]);
-lc.setColumn(0,4,s[3]);
-lc.setColumn(0,3,s[4]);
-lc.setColumn(0,2,s[5]);
-lc.setColumn(0,1,s[6]);
-lc.setColumn(0,0,s[7]);
-delay(100);
+ lc.setColumn(0,7,s[0]);
+ lc.setColumn(0,6,s[1]);
+ lc.setColumn(0,5,s[2]);
+ lc.setColumn(0,4,s[3]);
+ lc.setColumn(0,3,s[4]);
+ lc.setColumn(0,2,s[5]);
+ lc.setColumn(0,1,s[6]);
+ lc.setColumn(0,0,s[7]);
+ delay(100);
 
 
 
 }
 void jump(){ //процедура прыжка
   lc.setColumn(0,7,s[0]);
-lc.setColumn(0,6,s[1]);
-lc.setColumn(0,5,s[2]);
-lc.setColumn(0,4,s[3]);
-lc.setColumn(0,3,s[4]);
-lc.setColumn(0,2,s[5]);
-lc.setColumn(0,1,s[6]);
-lc.setColumn(0,0,s[7]);
-delay(50);
-lc.clearDisplay(0);
-lc.setColumn(0,7,a[0]);
-lc.setColumn(0,6,a[1]);
-lc.setColumn(0,5,a[2]);
-lc.setColumn(0,4,a[3]);
-lc.setColumn(0,3,a[4]);
-lc.setColumn(0,2,a[5]);
-lc.setColumn(0,1,a[6]);
-lc.setColumn(0,0,a[7]);
-delay(50);
-lc.clearDisplay(0);
-lc.setColumn(0,7,n[0]);
-lc.setColumn(0,6,n[1]);
-lc.setColumn(0,5,n[2]);
-lc.setColumn(0,4,n[3]);
-lc.setColumn(0,3,n[4]);
-lc.setColumn(0,2,n[5]);
-lc.setColumn(0,1,n[6]);
-lc.setColumn(0,0,n[7]);
-delay(50);
-lc.clearDisplay(0);
-lc.setColumn(0,7,a[0]);
-lc.setColumn(0,6,a[1]);
-lc.setColumn(0,5,a[2]);
-lc.setColumn(0,4,a[3]);
-lc.setColumn(0,3,a[4]);
-lc.setColumn(0,2,a[5]);
-lc.setColumn(0,1,a[6]);
-lc.setColumn(0,0,a[7]);
-delay(50);
-lc.clearDisplay(0);
-lc.setColumn(0,7,s[0]);
-lc.setColumn(0,6,s[1]);
-lc.setColumn(0,5,s[2]);
-lc.setColumn(0,4,s[3]);
-lc.setColumn(0,3,s[4]);
-lc.setColumn(0,2,s[5]);
-lc.setColumn(0,1,s[6]);
-lc.setColumn(0,0,s[7]);
-delay(50);
-loop();
+ lc.setColumn(0,6,s[1]);
+ lc.setColumn(0,5,s[2]);
+ lc.setColumn(0,4,s[3]);
+ lc.setColumn(0,3,s[4]);
+ lc.setColumn(0,2,s[5]);
+ lc.setColumn(0,1,s[6]);
+ lc.setColumn(0,0,s[7]);
+ delay(50);
+ lc.clearDisplay(0);
+ lc.setColumn(0,7,a[0]);
+ lc.setColumn(0,6,a[1]);
+ lc.setColumn(0,5,a[2]);
+ lc.setColumn(0,4,a[3]);
+ lc.setColumn(0,3,a[4]);
+ lc.setColumn(0,2,a[5]);
+ lc.setColumn(0,1,a[6]);
+ lc.setColumn(0,0,a[7]);
+ delay(50);
+ lc.clearDisplay(0);
+ lc.setColumn(0,7,n[0]);
+ lc.setColumn(0,6,n[1]);
+ lc.setColumn(0,5,n[2]);
+ lc.setColumn(0,4,n[3]);
+ lc.setColumn(0,3,n[4]);
+ lc.setColumn(0,2,n[5]);
+ lc.setColumn(0,1,n[6]);
+ lc.setColumn(0,0,n[7]);
+ delay(50);
+ lc.clearDisplay(0);
+ lc.setColumn(0,7,a[0]);
+ lc.setColumn(0,6,a[1]);
+ lc.setColumn(0,5,a[2]);
+ lc.setColumn(0,4,a[3]);
+ lc.setColumn(0,3,a[4]);
+ lc.setColumn(0,2,a[5]);
+ lc.setColumn(0,1,a[6]);
+ lc.setColumn(0,0,a[7]);
+ delay(50);
+ lc.clearDisplay(0);
+ lc.setColumn(0,7,s[0]);
+ lc.setColumn(0,6,s[1]);
+ lc.setColumn(0,5,s[2]);
+ lc.setColumn(0,4,s[3]);
+ lc.setColumn(0,3,s[4]);
+ lc.setColumn(0,2,s[5]);
+ lc.setColumn(0,1,s[6]);
+ lc.setColumn(0,0,s[7]);
+ delay(50);
+ loop();
   }
 void loop() {
   
@@ -133,7 +133,7 @@ void loop() {
     {
       jump();
     }
-  }
+   }
   }
 
 
