@@ -1,6 +1,6 @@
 int jumptrig;
 #include <LedControl.h>
-#include "GravityDuino.h"
+#include "openBall.h"
 #include "openJump.h"
 
   void setup() {
