@@ -4,7 +4,7 @@ int jumptrig;
 #include "openJump.h"
 
   void setup() {
-  Serial.begin(57600);
+  Serial.begin(9600);
 
   lc.clearDisplay(0);
   lc.setIntensity(0, 8);
